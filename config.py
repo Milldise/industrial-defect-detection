@@ -39,7 +39,7 @@ DB_CONFIG = {
     "port":     int(os.getenv("DB_PORT", 5432)),
     "dbname":   os.getenv("DB_NAME",     "quality_control"),
     "user":     os.getenv("DB_USER",     "postgres"),
-    "password": os.getenv("DB_PASSWORD", "Zach5461"),
+    "password": os.getenv("DB_PASSWORD", "enter-password"),
 }
 
 # ─── UI ──────────────────────────────────────────────────────────────────────
